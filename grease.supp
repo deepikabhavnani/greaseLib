@@ -1,0 +1,20 @@
+{
+   <insert_a_suppression_name_here>
+   fun:_ZN8tcmalloc15CentralFreeList17FetchFromOneSpansEiPPvS2_
+   fun:_ZN8tcmalloc15CentralFreeList21FetchFromOneSpansSafeEiPPvS2_
+   fun:_ZN8tcmalloc15CentralFreeList11RemoveRangeEPPvS2_i
+   fun:_ZN8tcmalloc11ThreadCache21FetchFromCentralCacheEmm
+   fun:Allocate
+   fun:do_malloc_small
+   fun:do_malloc_no_errno
+   fun:do_malloc
+   fun:tc_malloc_skip_new_handler
+   fun:_ZN6Grease13Alloc_LMALLOC6mallocEi
+   fun:_ZN5TWlib9AllocatorIN6Grease13Alloc_LMALLOCEE6mallocEi
+   fun:_ZN5TWlib15tw_safeCircularIPN6Grease12GreaseLogger9singleLogENS_9AllocatorINS1_13Alloc_LMALLOCEEEEC1Eib
+   fun:_ZN6Grease12GreaseLoggerC1EiiP9uv_loop_s
+   fun:_ZN6Grease12GreaseLogger10setupClassEiiP9uv_loop_s
+   fun:GreaseLib_start
+   fun:main
+}
+
